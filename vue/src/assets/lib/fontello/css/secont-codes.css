@@ -1,0 +1,11 @@
+
+.home-icon:before { content: '\e800'; } /* '' */
+.dashboard-icon:before { content: '\e801'; } /* '' */
+.cerrar-icon:before { content: '\e802'; } /* '' */
+.finanzas-icon:before { content: '\e803'; } /* '' */
+.almacen-icon:before { content: '\e804'; } /* '' */
+.monitoreo-icon:before { content: '\e805'; } /* '' */
+.calidad-icon:before { content: '\e806'; } /* '' */
+.rrhh-icon:before { content: '\e807'; } /* '' */
+.contabilidad-icon:before { content: '\e808'; } /* '' */
+.crm-icon:before { content: '\e809'; } /* '' */

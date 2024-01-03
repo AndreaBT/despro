@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>CKEditor</title>
+        
+       	<script src="../ckeditor.js"></script>
+	   <script src="js/sample.js"></script>
+    </head>
+    <body>
+        <textarea name="editor1"></textarea>
+       
+    </body>
+</html>
+<script>
+CKEDITOR.replace( 'editor1', {
+	basePath : '../samples/ckfinder/',
+   filebrowserBrowseUrl: '../samples/ckfinder/ckfinder.html',
+    filebrowserImageBrowseUrl: '../samples/ckfinder/ckfinder.html?Type=Images',
+    filebrowserUploadUrl: '../samples/ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Files',
+    filebrowserImageUploadUrl: '../samples/ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Images',
+    filebrowserWindowWidth : '1000',
+    filebrowserWindowHeight : '700'
+    
+} );
+
+
+/*CKEDITOR.replace( 'editor', {
+  filebrowserBrowseUrl : '/kcfinder/browse.php',
+  filebrowserImageBrowseUrl : '/kcfinder/browse.php?type=images',
+  filebrowserFlashBrowseUrl : '/kcfinder/browse.php?type=flash',
+  filebrowserUploadUrl : '/kcfinder/upload.php?type=files',
+  filebrowserImageUploadUrl : '/kcfinder/upload.php?type=images',
+  filebrowserFlashUploadUrl :'/kcfinder/upload.php?type=flash',
+    
+} );*/
+
+/*CKEDITOR.replace( 'editor', {
+basePath : '/admin/ckfinder/',
+filebrowserBrowseUrl : '/admin/ckfinder/ckfinder.html',
+filebrowserImageBrowseUrl : '/admin/ckfinder/ckfinder.html?type=Images',
+filebrowserFlashBrowseUrl : '/admin/ckfinder/ckfinder.html?type=Flash',
+filebrowserUploadUrl : '/admin/ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Files&currentFolder=/upload/',
+filebrowserImageUploadUrl : '/admin/ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Images&currentFolder=/upload/',
+filebrowserFlashUploadUrl : '/admin/ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Flash&currentFolder=/upload/',
+} );*/
+	//initSample();
+ 
+
+</script>
+
+</body>
+</html>
+
